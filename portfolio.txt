@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+	/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>B. Saranya</h1>
+        <p>Assosiate software engineer</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Saranya Bhimavarapu, hailing from Hyderabad. I completed my graduation at VMTW, ghatkesar.  I am challenge acceptong person with optimistic outlook on life. I enjoy reading books, digital art, watching movies, listening to taylor swift. </p>
+<p>
+my technical skills include:
+<ul>
+<li>C language</li>
+<li>Python</li>
+<li>Html</li>
+<li>Bootstrap</li>
+<li>Pandas</li>
+</ul> </p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Voice controlled robotic vehicle</h3>
+	    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pantechsolutions.net%2Fvoice-controlled-robot-using-arduino&psig=AOvVaw0CBLsA31P99cfJDKFzDP3d&ust=1693932071442000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPDZke-ykYEDFQAAAAAdAAAAABAD" width="500" length="600"> </a>
+            <p>This project Voice Controlled Robotic Vehicle helps to control robot through voice commands received via android application. The integration of control unit with Bluetooth device is done to capture and read the voice commands. The robotic vehicle then operates as per the command received via android application. For this 8051 microcontroller is integrated in the system which makes it possible to operate the vehicle via android application.
+</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <h1>You can reach me at...</h1>
+	<ul>
+        <li> <a href="mailto:youremail@example.com">youremail@example.com</a> </li>
+	<li><a href="https://www.instagram.com/">insta</a></li>
+	<li><a href="https://github.com/">github</a></li>
+	<li><a href="https://www.linkedin.com/">linkdeln</a></li>
+	</ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+</body>
+</html>
